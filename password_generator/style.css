@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5eb4ff;
+  background-image: linear-gradient(250deg, #8974ff 0%, #13036d 100%);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  -webkit-text-stroke: 1px rgb(33, 35, 194);
+  font-family: arial;
+  color: rgb(255, 255, 255);
+}
+
+.pw-container {
+  background-color: #13036d;
+  width: 400px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(207, 231, 255, 0);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(207, 231, 255, 0);
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw {
+  background-color: #4d57b6;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 1rem;
+  position: relative;
+}
+
+.pw button {
+  background-color: white;
+  border: none;
+  color: rgb(29, 2, 56);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+  border-radius: 4px;
+}
+
+.pw:hover button {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+
+.pw-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.generate {
+  background-color: #dcf79ed5;
+  font-size: 2rem;
+  padding: 1rem;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  color: #13036d;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+.generate:hover {
+  background-color: #f84ece;
+  color: #fff;
+}
