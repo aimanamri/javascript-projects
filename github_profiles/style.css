@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5eb4ff;
+  background-image: linear-gradient(-44deg, #200c91 0%, #13036d 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 25px 0;
+  height: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(132, 0, 255, 0.5);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1.2rem;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  z-index: 99;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(132, 0, 255, 0.5);
+  padding: 3.2rem;
+  display: flex;
+  max-width: 800px;
+  background-color: #cc23ff;
+  background-image: linear-gradient(165deg, #9e0096 5%, #090cbe 80%);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #004ddd;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border: 5px solid #51f528;
+}
+
+.user-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  background-color: #2a2a72;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: auto;
+  color: #eee;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: center;
+}
